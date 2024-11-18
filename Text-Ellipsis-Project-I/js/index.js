@@ -5,7 +5,7 @@ const output = document.querySelector("#output");
 
 function getDescription(text) {
     console.log(text); // write something in the BROWSER and see it in the console
-    return text.substring(0, 10);
+    return text.substring(0, 10) + '...'; // added an ellipsis
 }
 
 input.addEventListener("input", (event) => {
