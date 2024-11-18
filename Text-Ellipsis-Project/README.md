@@ -1,4 +1,4 @@
-# Text ellipsis Project I
+# Text ellipsis Project
 
 You can now try your code by clicking on the BROWSER tab and interacting with the challenge. For example, in this challenge, you can write text inside the given text box.
 
