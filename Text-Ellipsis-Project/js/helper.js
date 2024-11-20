@@ -1,7 +1,10 @@
 /**
  * @param {string} text
  */
-export function getDescription(text) {
+function getDescription(text) {
     console.log(text); // write something in the BROWSER and see it in the console
-    return text.substring(0, 10);
+    if (text.length <= 10) {
+      return text;
+    }
+    return text.substring(0, 10) + '...';
 }
